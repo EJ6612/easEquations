@@ -5,7 +5,25 @@
     width: 50%;
   }
 
+.logocenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+}
+
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+}
+
+.customcard {
+  background-color: black;
+  outline-color: black;
+  --card-width: 50%;
+  --card-height: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2.5em;
 }
