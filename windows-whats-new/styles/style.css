@@ -3,12 +3,50 @@ body {
     background: none;
 }
 
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #content {
-    max-width: 1600px;
+    max-width: 1000px;
     align-items: center;
     background-color: transparent;
 }
 
 #logolong {
     width: 400px;
+    align-content: center;
 }
+
+.stack-panel {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+.stack-panel {
+    display: flex;
+    flex-direction: column;
+  }
+  
+details > summary {
+    cursor: pointer;
+    margin-top: 10px;
+}
+  
+details > div > p:first-child {
+    margin-top: 0;
+  }
+  
+details > div > div {
+    margin-top: 10px;
+  }
+  
