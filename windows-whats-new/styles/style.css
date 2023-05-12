@@ -1,8 +1,12 @@
+body {
+    background-color: transparent;
+    background: none;
+}
+
 #content {
     max-width: 1600px;
     align-items: center;
     background-color: transparent;
-    opacity: 0;
 }
 
 #logolong {
