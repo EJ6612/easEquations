@@ -22,31 +22,27 @@ p {
     align-content: center;
 }
 
-.stack-panel {
-    display: flex;
-    flex-direction: column;
-  }
-  
-.grid {
-    display: grid;
-    grid-template-columns: 1fr;
-  }
-  
-.stack-panel {
-    display: flex;
-    flex-direction: column;
-  }
-  
-details > summary {
-    cursor: pointer;
-    margin-top: 10px;
+.active, .accordion:hover {
+  background-color: #ccc;
 }
-  
-details > div > p:first-child {
-    margin-top: 0;
-  }
-  
-details > div > div {
-    margin-top: 10px;
-  }
-  
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border-radius: 0.5em;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: transparent;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
