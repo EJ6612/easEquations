@@ -1,0 +1,16 @@
+#page_header {
+    display: flex;
+}
+
+#page_logo {
+    width: 90px;
+    grid-column: 1;
+}
+
+#page_title {
+    grid-column: 2;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
